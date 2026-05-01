@@ -1,4 +1,4 @@
-FROM python:3.14.4-alpine3.23
+FROM python:latest
 
 ADD first.py /python-file/app.py
 

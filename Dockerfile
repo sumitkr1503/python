@@ -1,5 +1,7 @@
 FROM python:latest
 
-ADD first.py,/Parts/Car_Parts.py /python-file/app.py
+ADD first.py /python/first.py
 
-CMD ["python","/python-file/app.py"]
+ADD Parts /python/Parts
+
+CMD ["python","/python/first.py"]
